@@ -1,0 +1,18 @@
+%text-style {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: inherit;
+  color: $title-color;
+}
+.our-team__title {
+  @extend %text-style;
+  margin-bottom: 10px;
+}
+.our-team__text {
+  @extend %text-style;
+  font-weight: 400;
+  color: inherit;
+  margin-bottom: 16px;
+}
