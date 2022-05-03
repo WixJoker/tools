@@ -9,8 +9,10 @@
 .tools__list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 .tools__item {
+    flex-basis: calc((100% - 2 * 25px) / 2);
     min-width: 392px;
 }
 .tools__title {
@@ -48,6 +50,10 @@
 }
 
 .tools__button-loadmore {
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 184px;
+
     @include font(500, 20px, 1.5);
     color: #FF6E30;
 }
