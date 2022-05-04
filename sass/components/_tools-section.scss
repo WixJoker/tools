@@ -22,8 +22,10 @@
 
     margin-bottom: 25px;
 }
-
 .tools__text {
+    display: block;
+    margin-bottom: 84px;
+
     @include font(500, 18px, 1.67);
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
@@ -50,9 +52,16 @@
 }
 
 .tools__button-loadmore {
-    margin-right: auto;
+    display: block;
     margin-left: auto;
-    min-width: 184px;
+    margin-right: auto;
+
+    padding: 17px 38px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+
 
     @include font(500, 20px, 1.5);
     color: #FF6E30;

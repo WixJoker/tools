@@ -8,9 +8,12 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .tools__item {
+  -ms-flex-preferred-size: calc((100% - 2 * 25px) / 2);
+      flex-basis: calc((100% - 2 * 25px) / 2);
   min-width: 392px;
 }
 
@@ -60,6 +63,11 @@
 }
 
 .tools__button-loadmore {
+  padding: 17px 38px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
@@ -69,8 +77,6 @@
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  background-color: #ffffff;
-  color: #757575;
 }
 
 body.modal-open {
