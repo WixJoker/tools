@@ -13,8 +13,8 @@
 }
 
 .tools__item {
-  -ms-flex-preferred-size: calc((100% - 2 * 25px) / 2);
-      flex-basis: calc((100% - 2 * 25px) / 2);
+  -ms-flex-preferred-size: calc((100% - 3 * 25px) / 3);
+      flex-basis: calc((100% - 3 * 25px) / 3);
   padding: 33px;
   border-radius: 15px;
 }
@@ -40,16 +40,6 @@
   background-color: #FF6E30;
   color: #ffffff;
   cursor: pointer;
-}
-
-.tools__item:hover .folder-link, .tools__item:focus .folder-link {
-  background-color: #283036;
-  fill: rgba(255, 255, 255, 0.55);
-}
-
-.tools__item:hover .like-link, .tools__item:focus .like-link {
-  background-color: #283036;
-  fill: #FD3B41;
 }
 
 .tools__title {
